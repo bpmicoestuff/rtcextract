@@ -9,7 +9,7 @@ def get_workitems():
 	WORKITEMS_FILE = "./workitems.xml"
 	COOKIES = "./cookies.txt"
 	SIZE = 20000
-	USER = "dXXXXX"
+	USER = "dXXXXXX"
 	PASSWORD = "YYYY"
 	HOST = "https://this is url/ccm"
 	WORKITEM_CATALOG = "rpt/repository/workitem"
