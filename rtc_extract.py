@@ -179,7 +179,7 @@ def parse_workitems(input):
 	join3 = left_inner_join(join2a, "combined_story_parent_id", features, "feature_id")
 	join4 = left_inner_join(join3, "feature_parent_id", epics, "epic_id")
 	
-	save("joined_tasks", join4)
+	save("joined_task", join4)
 	
 	items = []
 	for task in root.xpath("/workitem/workItem[type/name='Task']"):
